@@ -367,7 +367,7 @@ def action():
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass6+'\n')
                                                     cps.close()
-                                                            cpb.append(c+user+pass6)
+                                                    cpb.append(c+user+pass6)
                                                                                                                                                                                                                         
                                                     else:
                                                         pass7="Pubglover786"
@@ -428,7 +428,7 @@ def action():
                                                                     cps = open('save/cloned.txt', 'a')
                                                                     cps.write(k+c+user+pass9+'\n')
                                                                     cps.close()
-                                                            cpb.append(c+user+pass9)                                                                                                                                                                                                      
+                                                                    cpb.append(c+user+pass9)                                                                                                                                                                                                      
                                                                                                                                                                                                                     
 
 
